@@ -9,7 +9,7 @@ variable "databricks_cli_profile" {
 }
 
 variable "github_owner" {
-  description = "GitHub org or user that owns the repo (e.g. \"modern-data-engineering-lab\")."
+  description = "GitHub org or user that owns the repo (e.g. \"all-about-data-and-more\")."
   type        = string
 }
 

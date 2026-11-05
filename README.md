@@ -1,12 +1,12 @@
 # retail-customer-intelligence
 
-[![CI/CD](https://github.com/modern-data-engineering-lab/retail-customer-intelligence/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/modern-data-engineering-lab/retail-customer-intelligence/actions/workflows/ci-cd.yml)
+[![CI/CD](https://github.com/all-about-data-and-more/retail-customer-intelligence/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/all-about-data-and-more/retail-customer-intelligence/actions/workflows/ci-cd.yml)
 
 A dbt-on-Databricks analytics-engineering repo: RFM segmentation, churn-risk features, and
 customer LTV on the real [Olist Brazilian E-Commerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 dataset (about 99k orders, 96k customers). The Databricks workspace, Unity Catalog catalogs,
 and CI/CD conventions here are shared with
-[`databricks-bundle-template`](https://github.com/modern-data-engineering-lab/databricks-bundle-template),
+[`databricks-bundle-template`](https://github.com/all-about-data-and-more/databricks-bundle-template),
 which provisioned that shared platform layer; this repo builds its own schema, service
 principals, and dbt project on top of it.
 
